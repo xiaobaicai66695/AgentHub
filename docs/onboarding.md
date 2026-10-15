@@ -2,6 +2,17 @@
 
 > 目标：30 分钟内从零跑通项目，理解核心架构和开发流程。
 
+## 仓库地址
+
+| 项目 | 地址 |
+|------|------|
+| 代码仓库 | https://github.com/xiaobaicai66695/AgentHub |
+| 项目介绍页（GitHub Pages，push `docs/**` 自动部署） | https://xiaobaicai66695.github.io/AgentHub/ |
+| 演示视频与动图 | https://github.com/xiaobaicai66695/AgentHub/releases/tag/demo-v1 |
+
+克隆前请确认本地 `git remote -v` 指向上述仓库；若仍是旧的 `doloveplayer/agentHub`，执行
+`git remote set-url origin https://github.com/xiaobaicai66695/AgentHub.git`。
+
 ## 前置条件
 
 | 依赖 | 最低版本 | 检查命令 |
