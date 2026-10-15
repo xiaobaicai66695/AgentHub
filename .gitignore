@@ -74,5 +74,9 @@ apps/api/uploads/*
 
 # Demo media (hosted on GitHub Releases)
 docs/gif/
+
 # WorkBuddy workspace memory (local only)
 .workbuddy/
+
+# Personal artifacts & local outputs (never commit — e.g. resumes, generated docs)
+output/
