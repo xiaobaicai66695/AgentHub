@@ -27,7 +27,7 @@
 
 ```bash
 git clone git@github.com:xiaobaicai66695/AgentHub.git
-cd agentHub
+cd AgentHub
 cp .env.example .env          # 编辑 .env 填入必要配置
 npm install                    # 安装依赖
 ```
