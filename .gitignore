@@ -74,3 +74,5 @@ apps/api/uploads/*
 
 # Demo media (hosted on GitHub Releases)
 docs/gif/
+# WorkBuddy workspace memory (local only)
+.workbuddy/

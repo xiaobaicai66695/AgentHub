@@ -58,7 +58,7 @@ npx tsc --noEmit -p apps/web/tsconfig.json
 tail -f logs/$(ls -t logs/ | head -1)/*.log
 
 # Git 推送（HTTPS 被墙 —— 使用 SSH）
-git remote set-url origin git@github.com:doloveplayer/agentHub.git
+git remote set-url origin git@github.com:xiaobaicai66695/AgentHub.git
 ```
 
 ## 计划管理工作流
@@ -112,7 +112,7 @@ cd apps/api && NODE_ENV=development npx tsx src/index.ts
 
 # 获取 dev-token
 curl http://localhost:3000/api/auth/dev-token
-# → { "token": "eyJ...", "userId": "...", "login": "doloveplayer" }
+# → { "token": "eyJ...", "userId": "...", "login": "xiaobaicai66695" }
 
 # API 调用
 TOKEN=$(curl -s http://localhost:3000/api/auth/dev-token | python3 -c "import json,sys; print(json.load(sys.stdin)['token'])")

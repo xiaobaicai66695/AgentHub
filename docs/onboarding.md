@@ -15,7 +15,7 @@
 ## 第一步：克隆与安装（5 分钟）
 
 ```bash
-git clone git@github.com:doloveplayer/agentHub.git
+git clone git@github.com:xiaobaicai66695/AgentHub.git
 cd agentHub
 cp .env.example .env          # 编辑 .env 填入必要配置
 npm install                    # 安装依赖
